@@ -3,7 +3,7 @@ import About from './component/About'
 
 function App() {
   return (
-    <div className="min-h-screen h-screen font-LeagueSpartan">
+    <div className=" font-LeagueSpartan">
       <Header/>
       <About/>
     </div>

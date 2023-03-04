@@ -62,12 +62,12 @@ const {idd,imagee} = slidemobile[index]
     }
    }
   return (
-    <div className='min-h-2/3 h-2/3'>
+    <div className=' header'>
       <div className='flex flex-col md:flex-row h-full '>
           {/* desktop */}
-         <div className='bg-red-500 h-1/2 md:min-w-3/5 md:w-3/5 md:h-full hidden md:flex relative '>
+         <div className='bg-red-500 h-1/2  md:w-3/5 md:h-full hidden md:flex relative '>
           <img className='w-full h-full object-cover' src={image} alt="" />
-          <div className='absolute bottom-0 right-0 flex bg-black px-6 py-3 gap-6 md:hidden'>
+          <div className='absolute -bottom-10 right-0 flex bg-black px-6 py-3 gap-6 md:hidden'>
              <img onClick={Preve} className='cursor-pointer' src={left} alt="" />
              <img onClick={Next} className='cursor-pointer' src={right} alt="" />
           </div>
@@ -81,10 +81,10 @@ const {idd,imagee} = slidemobile[index]
           </div>
          </div>
 
-         <div className=' h-1/2 md:min-w-2/5 md:w-2/5 md:h-full py-8 px-6 md:p-16 relative'>
+         <div className=' h-1/2 md:min-w-2/5 md:w-2/5 md:h-full  py-8 px-6 md:p-10 lg:p-16 relative'>
           <h2 className='text-3xl font-bold max-w-xs mb-4'> Discover innovative ways to decorate</h2>
-          <p className='text-sm max-w-sm md:max-w-md mb-8 md:mb-6 text-gray-400 '>We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
-          <div className='flex items-center gap-6'>
+          <p className='text-sm max-w-sm md:max-w-md mb-4 md:mb-6 text-gray-400 '>We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+          <div className='flex items-center gap-6 '>
              <a href="#" className='uppercase tracking-hit text-gray-500'>shop now </a>
              <img src={arrow} alt="" />
           </div>
