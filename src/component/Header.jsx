@@ -125,7 +125,7 @@ const HideShow = ()=>{
                    <img onClick={HideShow} className='cursor-pointer z-50' src={ isopen? close: humberger} alt="" />
             </div>
              <div className='absolute flex top-0 gap-10 items-center left-0'>
-          <ul className='flex text-black bg-white w-screen pl-36 p-6 items-center gap-6'>
+          <ul className='flex text-black bg-white w-screen pl-24 p-6 items-center gap-6'>
            <div className=' group'>
               <a href="#">home</a>
               <div className='group-hover:border-black border-b-2 border-transparent mx-2'></div>
